@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class athirmaticOperations {
+public class ArithmeticOperations {
     public static void main(String[] args) {
 
         // Basic Operations
@@ -44,6 +44,10 @@ public class athirmaticOperations {
         System.out.println(Math.toDegrees(90));
         System.out.println(Math.toRadians(90));
         // Others include colt, jet, weka, Jscience, mahout, apache commons math
+
+        // Random Integers
+        // We can also give range to random
+        System.out.println("Random: " + Math.random());
 
 
     }
